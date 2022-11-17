@@ -1,9 +1,10 @@
+import { Link } from 'react-router-dom';
 import Footer from '../Footer';
 
 const AuthLayout = ({ children }) => {
   return (
     <>
-      {children}
+      <main>{children}</main>
       <Footer />
     </>
   );
